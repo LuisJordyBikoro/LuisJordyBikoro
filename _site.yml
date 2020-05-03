@@ -1,9 +1,13 @@
-name: "my-website"
+name: "BKR"
 output_dir: "."
 navbar:
-  title: "My Website"
+  title: "BKR"
   left:
     - text: "Home"
       href: index.html
     - text: "About"
       href: about.html
+output:
+  html_document:
+    theme: united
+    highlight: textmate
